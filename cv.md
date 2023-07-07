@@ -2,7 +2,7 @@
 ***Junior frontend-developer***
 
 
-**Specializations:**
+**Specializations:**\
 _Programmer, developer_\
 _Employment: full-time_
 
@@ -10,26 +10,26 @@ _Employment: full-time_
 **Phone:** +7 905 000-00-00\
 **E-mail:** avbelyakovakm@gamil.com\
 **GitHub:** BelyakovaAV\
-**Telegram** @BelyakovaAV\
+**Telegram** @BelyakovaAV
 
 # About Me
 Currently I work in the safebox field as a customer service manager. But something new rarely appears in this work, I understand that I want to constantly learn something. And now I see for myself such prospects in the field of programming.
 Experience in this field is minimal. I want to improve my skills as a specialist, I am set up for professional growth and active independent learning of new things. I'm ready to do an internship!
-There is a huge motivation to explore a new field of activity and in the future I see my goal to become a *project manager*.
+> There is a huge motivation to explore a new field of activity and in the future I see my goal to become a *project manager*.
 
 _My strengths:_\
-1.Quick learner
-2.Full immersion in the essence of the problems
-3.Diligence
-4.Team playing
-5.Вeveloped emotional intelligence
+* Quick learner
+* Full immersion in the essence of the problems
+* Diligence
+* Team playing
+* Вeveloped emotional intelligence
 
 # Skills
-1.HTML
-1.CSS (Bootstrap, SASS/SCSS, BEM)
-1.JavaScript (Fundamentals,DOM, JSON)
-1.Git/GitHub
-1.React.js, Node.JS
+ - HTML
+ - CSS (Bootstrap, SASS/SCSS, BEM)
+ - JavaScript (Fundamentals,DOM, JSON)
+ - Git/GitHub
+ - React.js, Node.JS
 
 
 # Code Examples
@@ -52,11 +52,11 @@ _My strengths:_\
 
 
 # Education
-**Higher education (Bachelor's degree)**\
+**Higher education (Bachelor's degree)**\\
 *ROAT(MIIT)*
-Economy of the enterprise and organization, National economy\
+Economy of the enterprise and organization, National economy\\
 *Moscow State College of Technology and Law*
-Marketing, Marketing\
+Marketing, Marketing\\
 *GBOU DPO "Center professional" in the frontend program-development* \
 HTML/CSS\
 JavaScript (in the process ...)
