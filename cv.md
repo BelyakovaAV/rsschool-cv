@@ -49,7 +49,6 @@ _My strengths:_
    setInterval(animation, 10);
 }
 ```
-git
 
 # Education
 **Higher education (Bachelor's degree)**
