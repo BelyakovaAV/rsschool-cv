@@ -53,11 +53,11 @@ _My strengths:_
 # Education
 **Higher education (Bachelor's degree)**
 * *ROAT(MIIT)*
-  * Economy of the enterprise and organization, National economy\
+  * Economy of the enterprise and organization, National economy
 * *Moscow State College of Technology and Law*
-  * Marketing, Marketing\
-* *GBOU DPO "Center professional" in the frontend program-development* \
-  * HTML/CSS\
+  * Marketing, Marketing
+* *GBOU DPO "Center professional" in the frontend program-development* 
+  * HTML/CSS
   * JavaScript (in the process ...)
 
 
