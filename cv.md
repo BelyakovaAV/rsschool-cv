@@ -12,7 +12,6 @@ _Employment: full-time_
 **GitHub:** BelyakovaAV
 **Telegram** @BelyakovaAV
 
-
 # About Me
 Currently I work in the safebox field as a customer service manager. But something new rarely appears in this work, I understand that I want to constantly learn something. And now I see for myself such prospects in the field of programming.
 Experience in this field is minimal. I want to improve my skills as a specialist, I am set up for professional growth and active independent learning of new things. I'm ready to do an internship!
