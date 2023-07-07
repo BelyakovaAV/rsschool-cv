@@ -17,7 +17,7 @@ Currently I work in the safebox field as a customer service manager. But somethi
 Experience in this field is minimal. I want to improve my skills as a specialist, I am set up for professional growth and active independent learning of new things. I'm ready to do an internship!
 > There is a huge motivation to explore a new field of activity and in the future I see my goal to become a *project manager*.
 
-_My strengths:_\
+_My strengths:_
 * Quick learner
 * Full immersion in the essence of the problems
 * Diligence
@@ -49,17 +49,17 @@ _My strengths:_\
    setInterval(animation, 10);
 }
 ```
-
+git
 
 # Education
-**Higher education (Bachelor's degree)**\\
-*ROAT(MIIT)*
-Economy of the enterprise and organization, National economy\\
-*Moscow State College of Technology and Law*
-Marketing, Marketing\\
-*GBOU DPO "Center professional" in the frontend program-development* \
-HTML/CSS\
-JavaScript (in the process ...)
+**Higher education (Bachelor's degree)**
+* *ROAT(MIIT)*
+  * Economy of the enterprise and organization, National economy\
+* *Moscow State College of Technology and Law*
+  * Marketing, Marketing\
+* *GBOU DPO "Center professional" in the frontend program-development* \
+  * HTML/CSS\
+  * JavaScript (in the process ...)
 
 
 # Languages
