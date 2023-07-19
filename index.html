@@ -1,35 +1,180 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
-</head>
-<body>
-  <table class="table">
-    <thead>
-      <tr>
-        <th>First Name</th>
-        <th>Last Name</th>
-        <th>ZIP</th>
-        <th>Birthday</th>
-        <th>Points</th>
-        <th>Average</th>
-        <th>Amount</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td>Gloria</td>
-        <td>Reeves</td>
-        <td>67439</td>
-        <td>10/18/1985</td>
-        <td>4</td>
-        <td>0.1</td>
-        <td>$50</td>
-      </tr>
-      ...
-    </tbody>
-  </table>
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" href="img/r11.ico" />
+    <title>CV</title>
+  </head>
+  <body>
+    <header class="header">
+      <div class="container">
+        <div class="header__container">
+          <div class="header__photo">
+            <img src="img/foto.png" alt="photo" class="header__image" />
+          </div>
+          <div class="header__content">
+            <nav class="header-menu">
+              <ul class="header-menu__list">
+                <li class="header-menu__item">
+                  <a href="#about" class="header-menu__link">About&nbspMe</a>
+                </li>
+                <li class="header-menu__item">
+                  <a href="#code" class="header-menu__link">Code</a>
+                </li>
+                <li class="header-menu__item">
+                  <a href="#skills" class="header-menu__link">Skills</a>
+                </li>
+                <li class="header-menu__item">
+                  <a href="#contacts" class="header-menu__link">Contacts</a>
+                </li>
+              </ul>
+            </nav>
+            <div class="header__info">
+              <h1 class="header__title">Belyakova Anastasia</h1>
+              <h2 class="header__subtitle">Future front-end developer</h2>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <div class="main-content">
+      <div class="container">
+        <div class="main-content__container">
+          <aside class="aside">
+            <section class="education">
+              <h3 class="side__header">Education</h3>
+              <div class="divider divider_yellow"></div>
+              <div class="education__place">
+                <div class="education__title">ROAT(MIIT)</div>
+                <div class="education__descr">
+                  Economy of the enterprise and organization, National economy
+                </div>
+              </div>
+              <div class="divider divider_grey"></div>
+              <div class="education__place">
+                <div class="education__title">Moscow State College of Technology and Law</div>
+                <div class="education__descr">Marketing, Marketing</div>
+              </div>
+              <div class="divider divider_grey"></div>
+              <div class="education__place">
+                <div class="education__title">
+                  GBOU DPO "Center professional" in the frontend program-development
+                </div>
+                <div class="education__descr">Frontend developer</div>
+              </div>
+              <div class="divider divider_grey"></div>
+              <div class="education__place">
+                <div class="education__title">RS School</div>
+                <div class="education__descr">JS/FE Pre-School 2023Q2 (in proccess...)</div>
+              </div>
+            </section>
+            <section class="skills" id="skills">
+              <h3 class="side__header">Skills</h3>
+              <div class="divider divider_yellow"></div>
+              <ul class="skills__list">
+                <li class="skills__item skills__html">HTML</li>
+                <li class="skills__item skills__css">CSS (Bootstrap, SASS/SCSS, BEM)</li>
+                <li class="skills__item skills__javascript">JavaScript (Fundamentals,DOM, JSON)</li>
+                <li class="skills__item skills__github">Git/GitHub</li>
+                <li class="skills__item skills__figma">Figma</li>
+              </ul>
+            </section>
+          </aside>
+          <main class="main">
+            <section class="main__about" id="about">
+              <h3 class="main__header">About me</h3>
+
+              <div class="main__descr">
+                Currently I work in the safebox field as a customer service manager. But something
+                new rarely appears in this work, I understand that I want to constantly learn
+                something. And now I see for myself such prospects in the field of programming.
+                Experience in this field is minimal. I want to improve my skills as a specialist, I
+                am set up for professional growth and active independent learning of new things. I'm
+                ready to do an internship! There is a huge motivation to explore a new field of
+                activity and in the future I see my goal to become a project manager.
+              </div>
+              <article class="about-strengths">
+                <h4 class="main__subheader">My strengths:</h4>
+                <ul class="main__list">
+                  <li class="main__item">Quick learner</li>
+                  <li class="main__item">Full immersion in the essence of the problems</li>
+                  <li class="main__item">Diligence</li>
+                  <li class="main__item">Team playing</li>
+                  <li class="main__item">Developed emotional intelligence</li>
+                </ul>
+              </article>
+              <article class="about-languages">
+                <h4 class="main__subheader">Languages:</h4>
+                <ul class="main__list">
+                  <li class="main__item">Russian - native speaker</li>
+                  <li class="main__item">English - A1 proccess...</li>
+                </ul>
+              </article>
+            </section>
+            <section class="code-example" id="code">
+              <h3 class="main__header">Code example</h3>
+
+              <pre class="pre">
+                      <code class="code">
+let newBlog = document.getElementById("hello");
+let step = 0;
+let flag = true;
+                    
+function animation() {
+  if (window.innerWidth - 900 > step && flag) {
+    step += 1;
+  } else {
+    flag = step == 0 ? true : false;
+    step -= 1;
+  }
+  newBlog.style.left = step + "px";
+}
+setInterval(animation, 10);
+                      </code>
+                  </pre>
+            </section>
+          </main>
+        </div>
+      </div>
+    </div>
+    <footer class="footer">
+      <div class="container">
+        <div class="footer__container">
+          <section class="contacts">
+            <h3 class="side__header" id="contacts">Contacts</h3>
+            <div class="divider divider_yellow"></div>
+            <ul class="contacts__list">
+              <li class="contacts__item">
+                <a href="tel:+79050000000" class="side__link" target="_blank">Phone</a>
+              </li>
+              <li class="contacts__item">
+                <a href="Avbelyakovakm@gmail.com" class="side__link" target="_blank">E-mail</a>
+              </li>
+              <li class="contacts__item">
+                <a href="https://t.me/AVbelyakova" class="side__link" target="_blank">Telegram</a>
+              </li>
+            </ul>
+          </section>
+          <div class="footer__content">
+            <div class="footer__item">
+              <a href="https://github.com/BelyakovaAV" target="_blank">
+                <img src="img/github.svg" alt="github_icon" class="footer__image" />
+              </a>
+            </div>
+            <div class="footer__item">
+              <a href="https://rs.school/js/" target="_blank">
+                <img src="img/rs_school.svg" alt="rs-school-logo" class="footer__image" />
+              </a>
+            </div>
+            <div class="footer__date">
+              Created <br />
+              in 2023
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
 </html>
